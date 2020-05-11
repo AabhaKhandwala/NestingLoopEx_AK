@@ -8,4 +8,7 @@ Look at the second set of nested loops ("AB"). Change the print() statement to p
 Ans:print() will print output in same line.(1-1 1-2 1-3 2-1 2-2 2-3 3-1 3-2 3-3)while println will print output in newline.
 
 Add a System.out.println() statement after the close brace of the inner loop (the "b" loop), but still inside the outer loop. How does the output change?
-Ans:it will throw error("b cannot be resolved to a variable") as b is out of scope here, outside of the loop.
+Ans:
+1-1 1-2 1-3
+2-1 2-2 2-3
+3-1 3-2 3-3

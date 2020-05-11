@@ -17,7 +17,8 @@ public class NestedLoop {
                 // ans:3 System.out.println(a + "-" + b + " ");
             }
             // * You will add a line of code here.
-            // System.out.println(a + "-" + b + " ");// b is out of scope here, outside of
+            System.out.println();// Ans4:b is out of scope here, outside
+            // of
             // the loop.
         }
 
